@@ -1,0 +1,360 @@
+
+
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    background-color:#332725;
+    font-size: 20px;
+    padding: 20px;
+    z-index: 9999;
+
+
+}
+
+.navbar .navbar-brand {
+
+color: white;
+font-size: 20px;
+padding: 15px;
+
+}
+.navbar-nav li a {
+color: white;
+
+}
+.navbar-nav li a:hover {
+ border-bottom:1px solid white;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fluid {
+margin-bottom: 100px;
+}
+
+
+.sevices {
+
+text-align: center;
+margin-bottom: 40px;
+position: relative;
+
+
+}
+
+.services  {
+ width: 200px;
+ height: 80px;
+ border-radius: 9px;
+ background-color: crimson ;
+ color: white;
+ text-align: center;
+ position: absolute;
+ left: 550px;
+ 
+
+padding-top: 25px;
+font-size: 25px;
+animation-name: example;
+animation-duration: 3s;
+animation-timing-function: linear;
+animation-delay: 1s;
+  
+}
+@media only screen and (max-width: 768px) {
+    .services {
+        left: 100px;
+        animation-name: ex;
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-delay: 1s;
+  
+    }
+
+    @keyframes ex {
+        0% { 
+        transform: rotate(0deg);
+        left: 0px;
+        }
+        25% { transform: rotate(-20deg);
+        left: 100px;
+        }
+        50% { transform: rotate(0deg);
+        left: 100px;
+        }
+
+        75% { transform: rotate(20deg);
+        left: 100px;
+        }
+        100% { transform: rotate(0deg);
+        left: 100px;
+        }
+
+        }
+
+
+
+
+
+
+  }
+
+
+
+
+/* Standard syntax */
+@keyframes example {
+0% { 
+transform: rotate(0deg);
+left: 0px;
+}
+
+25% { transform: rotate(20deg);
+left: 0px;
+
+
+}
+
+100% { transform: rotate(0deg);
+left: 500px;
+
+}
+
+}
+
+.row {
+margin-bottom: 10px;
+
+}
+
+
+
+.container {
+
+padding: 15px;
+    
+}
+
+.desktop {
+ width: 150px;
+ height: 150px;   
+border-radius: 100px;
+border: 2px solid cornflowerblue;
+position: relative;
+left: 98px;
+
+
+}
+
+
+
+ 
+.desktopi {
+width: 140px;
+height: 140px;
+border-radius: 80px;
+position: absolute;
+top: 3px;
+left: 3px;
+transition:  1s;
+
+}
+.desktopi:hover {
+
+    background-color: cornflowerblue;
+    color: white;
+    
+    
+    }
+    
+
+i {
+position: absolute;
+top: 40px;
+left: 35px;
+color: cornflowerblue;
+transition: 1s;
+
+}
+
+i:hover{
+
+    color: white;
+}
+
+.content {
+    
+    padding-top: 10px;
+    line-height: 14px; 
+   
+   }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sevices {
+
+    margin-bottom: 30px;
+}
+
+
+.gear {
+border-radius:90px;
+border: 1px solid red; 
+padding: 30px;
+}
+
+.specs{
+
+    background-color: #332725;
+    margin-top: 20px;
+}
+
+ .about {
+        border-bottom: 2px solid white;
+        color: white;
+        font-size: 30px;
+        padding: 4px;
+        text-align: center;
+        }
+
+        
+
+
+
+
+
+ .aboutus{
+    color: white;
+    
+
+ }
+
+
+
+
+
+
+
+
+ .img-circle {
+
+position: relative;
+top: 30px;
+left: 15px;
+ }
+
+.carousal {
+
+height: 300px;
+background-color: lightgrey;
+
+}
+
+.customers {
+
+    text-align: center;
+    color: white;
+    background-color: rgb(194, 54, 54);
+    border-radius: 40px;
+    padding: 20px;
+    
+}
+.customer {
+
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.item h4{
+
+    margin: 60px 0px;
+    
+
+}
+.carousel-indicators li {
+
+border-color: blue;
+
+
+}
+
+.carousel-indicators li.active {
+
+    background-color: blue;
+    
+    
+    }
+
+    .carousel-control.right, .carousel-control.left {
+        background-image: none;
+        color: #f4511e;
+      }
+
+.foot {
+
+    background-color: #2f3b4f;
+     height: 400px;
+    color: white;
+    font-size: 20px;
+}
+
+.con{
+margin: 70px;
+
+}
+
+.conh{
+margin: 30px;
+
+
+
+}
